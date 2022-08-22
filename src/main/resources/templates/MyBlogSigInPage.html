@@ -1,32 +1,93 @@
 <!DOCTYPE html>
 <html>
-
 <head>
-    <meta charset="utf-8">
-    <title>Sigin</title>
-    <style>
-        .a {
-            font-weight: 100;
+  <meta charset="utf-8">
+  <title>Login</title>
+  <style>
+
+    #text-1 {
+      height: 20px;
+      width: 170px;
+    }
+    .a {
+
+      height: 500px
+      width: 300px;
+
+      padding-right: 3px;
+      
+      margin: auto;
+
+      background-color: white;
+
+      border-radius: 20px;
+    }
+    .b{
+      width: 180px;
+      padding: 10px;
+      margin: auto;
+      border: solid green 5px;
+      border-radius: 10px;
+     
+    }
+
+    p{
+      padding-bottom: 10px;
+    }
+   
+    
+    
+   
+    
+    
+    
+      .outer {
+
+        height: 500px;
+        width: 500px;
+        position: relative;
+
+       background-color: burlywood;
+
+       padding: 50px 100px 10px;
+       margin: 50px auto;
+       
+       border-style:solid;
+       border-color:blue;
+       border-width:1px;
+       border-radius: 15px;
         }
-    </style>
+   
+    
+    
+    
+
+  </style>
 
 </head>
 
 <body>
-    <h1>Login</h1>
-    <form action="" method="post">
-        <br>
-        <label for="name" class="a" style="font-weight: 10px;">Username</label>
-        <br>
-        <input id="name" type="text" name="username" placeholder="Enter Username">
-        <br>
-        <label for="password" class="a">Password</label>
-        <br>
-        <input id="password" type="password" name="pwd" placeholder="Enter Password">
-        <hr>
-        <input type="button" value="Sign in">
-    </form>
-    <p>Have no account yet?<a href="MyBlogRegisterPage.html">Register</a>.</p>
-</body>
+  <div class="outer">
+    <div class="a">
 
+      <h1 style="text-align: center">Login</h1>
+  
+        <form  action="https://www.google.com" method="post">
+         <div class="b">
+            <label for="name">Email Address:</label>
+            <br>
+            <input  id="name" type="text"  placeholder="Enter email">
+            <br>
+            <label for="pwd">PassWord:</label>
+            <br>
+            <input id="pwd" type="password"  placeholder="PassWord">
+            <br>
+            <input id="text-1" type="submit" value="Login">
+         </div>
+        <p style="text-align: center">Don`t have an account?<a href="MyBlogRegisterPage.html">Register</a></p>
+       <form>
+ </div>
+</div>
+</body>
 </html>
+  

@@ -1,4 +1,4 @@
 # MyBlogYU
 |日付|作業内容|
 |--|--|
-|0819|プロジェクトの初始化とlogin、registerの簡単バージョン|
+|0822|login、registerの修正、myblogの簡単バージョン|
